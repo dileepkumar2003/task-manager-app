@@ -1,36 +1,64 @@
-# 📱 Task Manager App (Flutter + Firebase)
+# 📱 Task Manager App
 
-A modern Task Manager mobile application built using Flutter and Firebase with real-time cloud sync, authentication, and notifications.
+## 📌 Description
 
----
+This is a Task Manager mobile application built using Flutter and Firebase.
+It allows users to manage tasks with cloud sync, authentication, and notifications.
 
 ## 🚀 Features
 
-- 🔐 Firebase Authentication (Login & Signup)
-- ☁️ Cloud Sync using Firestore
-- 🔔 Notifications for tasks
-- 🎯 Add / Edit / Delete Tasks
-- 📅 Due Date Selection
-- 🎨 Priority & Status (To-Do, In Progress, Done)
-- 👤 Profile Page with Image Upload
-- 🌙 Dark / Light Theme (Infosys-style UI)
+- User Login & Signup (Firebase Auth)
+- Add, Edit, Delete Tasks
+- Cloud Sync using Firestore
+- Notifications
+- Dark/Light Theme
 
----
+## ⚙️ Setup Instructions
 
-## 🛠️ Tech Stack
-
-- Flutter (Frontend)
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
-- Flutter Local Notifications
-
----
-
-## ⚙️ Setup Instructions (Step-by-Step)
-
-### 1️⃣ Clone the Repository
-
+1. Clone the repository:
 ```bash
 git clone https://github.com/dileepkumar2003/task-manager-app.git
 cd task-manager-app
+
+Install dependencies:
+flutter pub get
+Add Firebase:
+Download google-services.json
+Place in android/app/
+Run app:
+flutter run
+
+
+---
+
+# 🟢 STEP 5 — TRACK & STRETCH GOAL
+
+```markdown
+## 🎯 Track & Stretch Goal
+
+- Track: B (Cloud-based App)
+- Stretch Goals:
+  - Firebase integration
+  - Notifications
+
+
+## 🤖 AI Usage Report
+
+AI was used to:
+- Debug errors
+- Fix Gradle issues
+- Improve UI
+- Assist in documentation
+
+All code was reviewed and understood before use.
+
+
+## 📥 Download APK
+
+[Download App](https://github.com/dileepkumar2003/task-manager-app/releases)
+
+
+## 👨‍💻 Author
+
+Dileep Kumar  
+GitHub: https://github.com/dileepkumar2003
